@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a:link{
+    text-decoration:underline;
+    color: blue;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+a:hover{
+    text-decoration:none;
+    
+    text-shadow: 0cqi;
+   
+    font-weight: bold;
+    color: orangered;
+}
+a:visited{
+    text-decoration: none;
+}
+a:active{
+    color: brown;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: medium;
+    padding-top: 20px;
+}
+nav{
+    background-color: rgb(196, 196, 196);
+    
+    line-height: 1.4;
+    line-gap-override: 10;
+    padding: top 10px; ;
+}
+li{
+    list-style: square;
+    padding-top: 15px;
+}
+button{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+button:hover{
+    font-weight: bold;
+    backface-visibility: hidden;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-top: 5px solid black;
+    
+}
+#shipping{ text-transform: uppercase;
+    font-size: large;
+    font-family: sans-serif;
+    padding-bottom:-25px;
+    float: right;
+}
+.sale{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight:bold;
+    padding: 7px 15px;
+    font-family: sans-serif;
+    display: inline-block;
+    position: absolute;
+    top: -60px;
+    left: -50px;
+    letter-spacing: 2px;
+   
+    
+}
+#border{
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    border-spacing: 10px;
+    padding-top: 20px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+    
+
+}
+.container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+   
+    
+}
+.color{
+    background-color: black;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    margin-right: 12px;
+    
+    
+}
+.blue {
+    background-color: blue;
+}
+.red{
+    background-color: red;
+
+}
+.yellow{
+    background-color: yellow;
+
+}
+.green{
+    background-color: green;
+}
+.brown{
+    background-color: brown;
+}
+#price{
+    font-size: 24px;
+    float:left
+}
+.product-description{
+    clear: both;
+}
+.product-info{
+    width: 300px;
+   float: left;
+    
+
+}
+.product-details{
+    width: 243px;
+    float: right;
+}
+.product-image{
+    float: left;
+    margin-right: 40px;
+}
+.more-info{
+    position:relative;
+    display: inline-flex;
+}
